@@ -10,7 +10,7 @@ public class MySortLib {
      * 本程序按照升序排列
      * Created by fred on 2018/6/7.
      */
-    public static void selectSort(int[] arr){
+    public static void selectionSort(int[] arr){
         for(int i = 0; i < arr.length - 1; i++){
             int min = i;
             for(int j = i + 1; j < arr.length; j++){
